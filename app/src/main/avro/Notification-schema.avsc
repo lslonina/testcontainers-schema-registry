@@ -1,0 +1,16 @@
+{
+  "type" : "record",
+  "name" : "Notification",
+  "namespace" : "com.lslonina.testcontainers.avro",
+  "fields" : [ {
+    "name" : "notificationId",
+    "type" : "string"
+  }, {
+    "name" : "name",
+    "type" : "string"
+  }, {
+    "name" : "timestamp",
+    "type" : "long",
+    "logicalType" : "timestamp-millis"
+  }]
+}
